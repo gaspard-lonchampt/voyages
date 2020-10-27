@@ -6,7 +6,9 @@
 
 /* fin ligne Alexandre  */
 /* début ligne Baptiste  */
-
+.contenu_dessous {
+  background-color: rgb(109, 177, 109);
+}
 .contenu_menu > input {
   outline: none;
   appearance: none;
@@ -23,7 +25,7 @@
 
 .contenu_nav {
   overflow: hidden;
-  background-color: wheat;
+  background-color: rgb(255, 255, 255);
   transform:translateY(-100vh);
   transition: .8s;
   opacity: 0;
@@ -49,7 +51,7 @@
   transition: .8s;
 }
 
-/* CSS MENU DEROULANT */
+/* ----------------------------------------------------------------------------------------------------CSS MENU DEROULANT-------------------------------------------------------------------------------------- */
 
 #menu_deroulant  a{
   text-decoration: none;
@@ -139,9 +141,9 @@
   content : "Afrique" ; 
 }
 
-/* FIN CSS MENU DEROULANT */
+/* ------------------------------------------------------------------------------------------------------------FIN CSS MENU DEROULANT------------------------------------------------------------------------------ */
 
-/* CSS BANNIERE */
+/*---------------------------------------------------------------------------------------------------------------- CSS BANNIERE ------------------------------------------------------------------------------------*/
 .banniere_photo {
  
   overflow: visible;
@@ -155,7 +157,7 @@
   
 }
 .contenu_banniere_photo div {
-  width : 20vw ; 
+  width : 30vw ; 
 }
 
 .contenu_banniere_photo div img {
@@ -170,14 +172,84 @@
   }
 
   50% {
-    transform: translateX(-100vw);
+    transform: translateX(-50vw) ;
   }
 
   100% {
-    transforme: translateX(0) ;
+    transform: translateX(0);
   }
 }
 
+/* --------------------------------------------------------------------------------  CSS NEWSLETTER -------------------------------------------------------------------------------------------------------- */
+
+.contenu_inscription_newsletter {
+  display : flex ; 
+  align-items: center;
+}
+
+.bloc_nl {
+  width : 20% ; 
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px gray solid;
+  padding: 30px;
+  margin: 80px ; 
+}
+
+.searchbar {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+
+.bloc_nl h1{
+  font-size: 1vw;
+  letter-spacing: 0.4em;
+}
+
+.bloc_nl p {
+  font-size: 3vw;
+  color: rgb(21, 21, 71);
+  font-weight: 300;
+  
+}
+
+.barre_recherche input {
+  width : 30vw ;  
+  padding: 30px;
+  border: none;
+  background-color:rgba(8, 8, 71, 0.712);
+}
+
+.barre_recherche input:focus {
+  background-color: rgba(8, 8, 71, 0.37) ;
+}
+
+.barre_recherche button {
+  padding: 28px;
+  color: white;
+  background-color: rgb(8, 8, 71) ;
+  border : none ; 
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  transition: .2s;
+}
+
+.barre_recherche button:hover {
+  background-color: white;
+  color: rgb(21, 21, 71);
+  border: 4px solid rgb(21, 21, 71) ;
+  cursor: pointer;
+}
+
+.barre_recherche input::placeholder {
+  color: white ; 
+  font-size: 1.6em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
 
 /* fin ligne Baptiste  */
 /* début ligne Gaspard  */
