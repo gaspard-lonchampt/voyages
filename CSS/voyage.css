@@ -1,4 +1,5 @@
 /* Espace libre pour rajouter des fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700;900&display=swap');
 /* début ligne Alexandre */
 
 
@@ -6,8 +7,7 @@
 /* fin ligne Alexandre  */
 /* début ligne Baptiste  */
 
-input {
-    
+.contenu_menu > input {
   outline: none;
   appearance: none;
   z-index: 2;
@@ -15,6 +15,11 @@ input {
   position: fixed;
 }
 
+.burger {
+  margin: 29px;
+  color: white;
+  transition: .8s;
+}
 
 .contenu_nav {
   overflow: hidden;
@@ -23,13 +28,17 @@ input {
   transition: .8s;
   opacity: 0;
   z-index: 1;
+  font-family: 'Poppins', sans-serif;
 }
-
 
 .burger:hover {
   cursor : pointer ; 
 }
 
+.burger:checked {
+  color: black;
+  transform: rotate(360);
+}
 
 .burger:checked + .contenu_nav {
   transform:translateY(0);
@@ -39,6 +48,101 @@ input {
   height: 100vh;
   transition: .8s;
 }
+
+/* CSS MENU DEROULANT */
+
+#menu_deroulant  a{
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+#menu_deroulant > li {
+  padding: 10px;
+  margin: 10px;
+}
+
+#menu_deroulant {
+  display: flex ; 
+  justify-content: center;
+  list-style: none;
+  text-align: center;
+}
+#menu_deroulant ul > li {
+  padding : 10px ; 
+  list-style: none;
+}
+
+.deroulant1,.deroulant2 {
+  overflow: hidden;
+  
+}
+.deroulant1 {
+  font-weight: 700;
+} 
+
+.deroulant1:hover .sous1 {
+  max-height: 50em;
+  opacity: 1;
+}
+
+.choix_continent:checked + .sous2 {
+  max-height: 50em;
+  opacity: 1;
+}  
+
+.choix_continent:after {
+  content: "Europe";
+}
+
+.sous1,.sous2 {
+  max-height: 0;
+  opacity: 0;
+  transition: all .5s;
+  font-weight: 400;
+}
+
+.sous2 li {
+  background-color: rgba(128, 128, 128, 0.548);
+  border-radius: 2em;
+  margin: 5px;
+  font-size: 0.8em;
+}
+
+#menu_deroulant .arrow:after {
+  content: "\279C" ;
+  padding : 5px ; 
+  display: inline-block;
+  transition: .3s;
+  
+}
+
+.deroulant1:hover .arrow:after {
+  transform: rotate(90deg);
+}
+
+.deroulant2 input {
+  outline: none;
+  appearance: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.asie:after {
+  content : "Asie" ; 
+}
+
+.amerique:after {
+  content : "Amérique" ; 
+}
+
+.afrique:after {
+  content : "Afrique" ; 
+}
+
+
+
+/* FIN CSS MENU DEROULANT */
 
 
 /* fin ligne Baptiste  */
