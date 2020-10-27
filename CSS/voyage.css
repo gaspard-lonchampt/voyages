@@ -140,9 +140,44 @@
   content : "Afrique" ; 
 }
 
-
-
 /* FIN CSS MENU DEROULANT */
+
+/* CSS BANNIERE */
+.banniere_photo {
+ 
+  overflow: visible;
+  width: 3000px;
+
+}
+.contenu_banniere_photo {
+  display: flex;
+  flex-wrap: nowrap;
+  animation : translateX 30s infinite ; 
+
+}
+.contenu_banniere_photo div {
+  width : 20vw ; 
+}
+
+.contenu_banniere_photo div img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+@keyframes translateX {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(-100vw);
+  }
+
+  100% {
+    transforme: translateX(0) ;
+  }
+}
 
 
 /* fin ligne Baptiste  */
