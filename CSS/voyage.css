@@ -6,6 +6,39 @@
 /* fin ligne Alexandre  */
 /* début ligne Baptiste  */
 
+input {
+    
+  outline: none;
+  appearance: none;
+  z-index: 2;
+  display: block;
+  position: fixed;
+}
+
+
+.contenu_nav {
+  overflow: hidden;
+  background-color: wheat;
+  transform:translateY(-100vh);
+  transition: .8s;
+  opacity: 0;
+  z-index: 1;
+}
+
+
+.burger:hover {
+  cursor : pointer ; 
+}
+
+
+.burger:checked + .contenu_nav {
+  transform:translateY(0);
+  opacity: 1;
+  top: 0;
+  position: sticky ; 
+  height: 100vh;
+  transition: .8s;
+}
 
 
 /* fin ligne Baptiste  */
