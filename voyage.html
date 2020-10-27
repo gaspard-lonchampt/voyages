@@ -2,7 +2,8 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="voyage.css" />
+    <link rel="stylesheet" href="CSS/voyage.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <!-- début espace libre pour rajouter du script ou autre (si il n'y plus de place rajouter à la suite sur la même ligne) -->
     <!-- début ligne Alexandre -->
     <!-- fin ligne Alexandre -->
@@ -16,7 +17,115 @@
 
 <body>
 <!-- début header Alexandre-->
-<header>
+
+<script>
+
+    var trans_time = 1000; // transition duration in ms
+    
+    function SlideTransition(islide, eslide){
+        islide.animate({'opacity': 0}, 2);
+        eslide.animate({'opacity': 1}, 2);
+    }
+
+    function SlideTransition(islide, eslide){
+        let start = Date.now();
+
+        let timer = setInterval(function(){
+            let timePassed = Date.now() - start;
+
+            if (timePassed >= trans_time){
+                clearInterval(timer);
+                islide.style.opacity = 0;
+                eslide.style.opacity = 1;
+                return;
+            }
+
+            else{
+                islide.style.opacity = 1 - timePassed/trans_time;
+            eslide.style.opacity = timePassed/trans_time;
+            }
+        }, 20)
+    }
+
+    function ChangeSlide() {
+
+        var s1 = document.getElementById("slide1");
+        var s2 = document.getElementById("slide2");
+        var s3 = document.getElementById("slide3");
+        var s4 = document.getElementById("slide4");
+        var s5 = document.getElementById("slide5");
+        var s6 = document.getElementById("slide6");
+        var s7 = document.getElementById("slide7");
+        var s8 = document.getElementById("slide8");
+        var s9 = document.getElementById("slide9");
+        var s10 = document.getElementById("slide10");
+        var s11 = document.getElementById("slide11");
+
+        if (window.getComputedStyle(s1).opacity == 1){
+            SlideTransition(s1, s2);
+        }
+        else if (window.getComputedStyle(s2).opacity == 1){
+            SlideTransition(s2, s3);
+        }
+        else if (window.getComputedStyle(s3).opacity == 1){
+            SlideTransition(s3, s4);
+        }
+        else if (window.getComputedStyle(s4).opacity == 1){
+            SlideTransition(s4, s5);
+        }
+        else if (window.getComputedStyle(s5).opacity == 1){
+            SlideTransition(s5, s6);
+        }
+        else if (window.getComputedStyle(s6).opacity == 1){
+            SlideTransition(s6, s7);
+        }
+        else if (window.getComputedStyle(s7).opacity == 1){
+            SlideTransition(s7, s8);
+        }
+        else if (window.getComputedStyle(s8).opacity == 1){
+            SlideTransition(s8, s9);
+        }
+        else if (window.getComputedStyle(s9).opacity == 1){
+            SlideTransition(s9, s10);
+        }
+        else if (window.getComputedStyle(s10).opacity == 1){
+            SlideTransition(s10, s11);
+        }
+        else if (window.getComputedStyle(s11).opacity == 1){
+            SlideTransition(s11, s1);
+        }
+    }
+</script>
+
+
+<section id="slider" onclick="ChangeSlide()">
+
+    <img class="fond-ecran" src="media/photos/fond-ecran-001.jpg" alt="paysages1" id="slide1">
+    <img class="fond-ecran" src="media/photos/fond-ecran-002.jpg" alt="paysages2" id="slide2">
+    <img class="fond-ecran" src="media/photos/fond-ecran-003.jpg" alt="paysages3" id="slide3">
+    <img class="fond-ecran" src="media/photos/fond-ecran-004.jpg" alt="paysages4" id="slide4">
+    <img class="fond-ecran" src="media/photos/fond-ecran-005.jpg" alt="paysages5" id="slide5">
+    <img class="fond-ecran" src="media/photos/fond-ecran-006.jpg" alt="paysages6" id="slide6">
+    <img class="fond-ecran" src="media/photos/fond-ecran-007.jpg" alt="paysages7" id="slide7">
+    <img class="fond-ecran" src="media/photos/fond-ecran-008.jpg" alt="paysages8" id="slide8">
+    <img class="fond-ecran" src="media/photos/fond-ecran-009.jpg" alt="paysages9" id="slide9">
+    <img class="fond-ecran" src="media/photos/fond-ecran-010.jpg" alt="paysages10" id="slide10">
+    <img class="fond-ecran" src="media/photos/fond-ecran-011.jpg" alt="paysages11" id="slide11">
+
+    <!-- <a href=""><i class="fa fa-bars fa-3x"></i></a> -->
+
+    <h1>
+        THE TRAVEL WARRIORS
+    </h1>
+
+    <h2>
+        Discover the world
+    </h2>
+
+    <img id="click-travel" src="media/photos/click.png" alt="click">
+
+</section>
+
 
 
 
@@ -204,7 +313,7 @@
 
 
   
-</header>
+
 <!-- fin header Alexandre -->
 <!-- début naviguation Baptiste-->
 
