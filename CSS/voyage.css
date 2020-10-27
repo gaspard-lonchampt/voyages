@@ -10,8 +10,8 @@
 
 /* fin ligne Baptiste  */
 /* début ligne Gaspard  */
-
-
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 /* fin ligne Gaspard */
 
@@ -738,31 +738,242 @@ html, body {
 /* <!-- fin main --> */
 /* <!-- début footer Gaspard--> */
 
+#footer_contain_all {
+  height: 90vh;
+  width: 100%;
+}
+
+#footer_contain_margin {
+  width: 90%;
+  margin: auto;
+}
+
+#footer_contain_titre {
+  display: flex;
+  flex-direction: column;
+}
+
+#footer_contain_titre h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  font-family: 'Poppins', sans-serif;
+  font-size: 4vh;
+}
+
+#footer_sous_titre {
+  display: flex;
+}
+
+#footer_sous_titre h2 {
+  width: 50%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer_contain_map_form {
+  display: flex;
+  height: 60vh;
+}
+
+#footer_map {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  background-image: url(../media/photos/—Pngtree—green\ minimalist\ earth\ woods\ round_4639694.png);
+  background-position: center;
+  align-items: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  overflow: visible;
+}
+
+#footer_map_background_contain {
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  width: 24vw;
+  height: 44vh;
+  object-fit: cover;
+}
+
+#footer_map_background_contain iframe {
+    width: 100%;
+    height: 100%;
+  object-fit: cover;
+}
+
+
+#footer_form {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../media/photos/macintosh_black.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  mix-blend-mode: overlay;
+}
+
+#footer_form_form {
+  height: 30%;
+  margin-bottom: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 6;
+}
+
+#footer_form_form input {
+  margin-top: 8%;
+}
+
+/* animation form  */
+
+#footer_form input {
+  font-family: 'Press Start 2P';
+  cursor: pointer;
+  font-size: 1.5vh;
+}
+
+input:hover {
+  background-color: purple;
+}
+
+#footer_form_title {
+  font-family: 'Press Start 2P';
+  display:inline-block;
+  padding-right:5px;
+  border-right:10px solid #fff;
+  animation: blink 1s infinite;
+  font-size: 3vh;
+}
+
+#footer_form_title:hover {
+  animation: blink_2 1s infinite;
+}
+
+#footer_form_title a {
+  text-decoration: none;
+  color: white;
+}
+
+#footer_form_title a:hover {
+  color: purple;
+}
+
+@keyframes blink{
+  0%{
+    border-right-color:transparent;
+  }
+  50%{
+    border-right-color:transparent;
+  }
+  51%{
+    border-right-color:#fff;
+  }
+  100%{
+    border-right-color:#fff;
+  }
+}
+
+@keyframes blink_2 {
+  0%{
+    border-right-color:transparent;
+  }
+  50%{
+    border-right-color:transparent;
+  }
+  51%{
+    border-right-color:purple;
+  }
+  100%{
+    border-right-color:purple;
+  }
+}
+
+#retro_warrior {
+  font-family: 'Press Start 2P';
+  font-size: 3vh;
+}
+
+
+/* social media */
+
+#ft_row_socialmedia {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+ 
+}
+
+#ft_pin {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0,0,0, 0.5);
+  width: 100%;
+  height: 15vh;
+}
+
+#ft_pin ul {
+  padding-top: 2%;
+  list-style: none;  
+} 
+
+
+#ft_pin a {
+  text-decoration: none;
+  color: #F2B705;
+}
+
+#bot_nav {
+  display: flex;
+  justify-content: center;
+}
+
+#bot_liste  {
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+}
+
+.fab {
+  font-size: 2vw;
+}
+
+/* .fab:hover {
+  border-bottom: 3px dotted black;
+} */
+
+.fab::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0.4vh;
+    background: rgba(3, 3, 3, 0.747);
+    transition: width .3s;
+    margin-right: 0;
+}
+
+.fab:hover::after {
+  width: 100%;
+  transition: width .3s;
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.bot_sous_titre {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2vh;
+}
 
 
 
