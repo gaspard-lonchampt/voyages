@@ -137,12 +137,12 @@ html, body {
     width: 100%;
     height: 100vh;
 
-    background-color: darkturquoise;
+    /* background-color: darkturquoise; */
 }
 
 #presentation_accueil_alex img{
     height:  60vh;
-    transition: 1s;
+    transition: .3s;
 }
 
 
@@ -151,7 +151,7 @@ html, body {
     justify-content: center;
     align-items: center;
     width: 40%;
-    background-color: gold;
+    background-color: rgb(220, 255, 228);
 }
 #overlay_photo_alex {
     display: flex;
@@ -181,6 +181,15 @@ html, body {
 
 
 
+#presentation_accueil_alex_liens_destinations{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: lawngreen; */
+}
 
 
 
@@ -188,20 +197,85 @@ html, body {
 
 
 
+#lien_iceland{
+    width: 100%;
+    height: 45.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: magenta; */
+   
+}
+
+#lien_iceland h1{
+    position: absolute;
+    font-size: 4em;
+    color: rgb(153, 220, 122);
+    transition: 1s;
+}
+
+#lien_iceland img{
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+
+#lien_iceland:hover #lapinnnn{
+    opacity: 1;
+}
+#lien_iceland:hover h1{
+    opacity: 0;
+    transform: scale(0);
+}
+
+
+
+#titre_choix_destination_alex{
+    display: flex;
+    flex-direction: column;
+
+    font-size: 3.8vh;
+}
+
+#titre_choix_destination_alex hr{
+ margin: 1vh;
+
+}
 
 
 
 
+#lien_egypte{
+    width: 100%;
+    height: 45.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: magenta; */
+}
 
+#lien_egypte h1{
+    position: absolute;
+    font-size: 4em;
+    color: rgb(153, 220, 122);
+    transition: 1s;
+}
 
+#lien_egypte img{
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
 
-
-
-
-
-
-
-
+#lien_egypte:hover #lapinnnn{
+    opacity: 1;
+}
+#lien_egypte:hover h1{
+    opacity: 0;
+    transform: scale(0);
+}
 
 
 
