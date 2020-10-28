@@ -8,7 +8,9 @@
 /* début ligne Baptiste  */
 .contenu_dessous {
   background-color: rgb(109, 177, 109);
+  transform: translateY(-100vh);
 }
+
 .contenu_menu > input {
   outline: none;
   appearance: none;
@@ -39,7 +41,6 @@
 
 .burger:checked {
   color: black;
-  transform: rotate(360);
 }
 
 .burger:checked + .contenu_nav {
@@ -128,7 +129,10 @@
   text-transform: uppercase;
   cursor: pointer;
 }
-
+.choix_continent:after {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2em;
+}
 .asie:after {
   content : "Asie" ; 
 }
@@ -172,7 +176,7 @@
   }
 
   50% {
-    transform: translateX(-50vw) ;
+    transform: translateX(-90vw) ;
   }
 
   100% {
@@ -194,7 +198,7 @@
   flex-direction: column;
   border: 1px gray solid;
   padding: 30px;
-  margin: 80px ; 
+  margin: 40px ; 
 }
 
 .searchbar {
@@ -220,6 +224,7 @@
   padding: 30px;
   border: none;
   background-color:rgba(8, 8, 71, 0.712);
+  outline: none;
 }
 
 .barre_recherche input:focus {
@@ -235,6 +240,7 @@
   font-weight: 700;
   font-family: 'Poppins', sans-serif;
   transition: .2s;
+  outline: none;
 }
 
 .barre_recherche button:hover {
@@ -246,10 +252,31 @@
 
 .barre_recherche input::placeholder {
   color: white ; 
-  font-size: 1.6em;
+  font-size: 1.2em;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
 }
+
+/* ------------------------------------------ CSS RESEAUX SOCIAUX ----------------------------------------------*/
+.contenu_nav .contenu_rs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenu_nav .contenu_rs a {
+  text-decoration: none;
+  color:  rgb(21, 21, 71) ;
+  display: block;
+  margin : 10px 20px ; 
+  transition: .4s;
+}
+
+.contenu_nav .contenu_rs a:hover {
+  transform: translateY(-5px) ; 
+}
+
+
 
 /* fin ligne Baptiste  */
 /* début ligne Gaspard  */
