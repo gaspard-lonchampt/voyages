@@ -136,16 +136,12 @@ html, body {
     top: 100vh;
     width: 100%;
     height: 100vh;
-
-    /* background-color: darkturquoise; */
 }
 
 #presentation_accueil_alex img{
     height:  60vh;
     transition: .3s;
 }
-
-
 .presentation_accueil_alex_section_photo{
     display: flex;
     justify-content: center;
@@ -177,6 +173,7 @@ html, body {
     font-size: 4em;
     transition: .3s ;
     opacity: 0;
+    font-family: 'Hind Guntur', sans-serif;
 }
 
 
@@ -189,6 +186,7 @@ html, body {
     justify-content: space-around;
     align-items: center;
     /* background-color: lawngreen; */
+    font-family: 'Hind Guntur', sans-serif;
 }
 
 
@@ -232,15 +230,18 @@ html, body {
 
 
 #titre_choix_destination_alex{
-    display: flex;
-    flex-direction: column;
 
-    font-size: 3.8vh;
+all: initial;
+
+font-size: 2em;
+    color: rgb(73, 73, 73);
+    /* background-color: chartreuse; */
+  
+
 }
 
 #titre_choix_destination_alex hr{
- margin: 1vh;
-
+ margin: 0.8vh;
 }
 
 
