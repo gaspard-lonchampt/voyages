@@ -32,20 +32,17 @@ html, body {
 /* fin style général */
 
 /* <!-- début header + nav Baptiste--> */
-.contenu_dessous {
-  background-color: rgb(109, 177, 109);
-  transform: translateY(-100vh);
+
+#menu {
+  height: 0px;
 }
 
-.contenu_menu > input {
+.burger {
   outline: none;
   appearance: none;
   z-index: 2;
   display: block;
   position: fixed;
-}
-
-.burger {
   margin: 29px;
   color: white;
   transition: .8s;
@@ -307,6 +304,7 @@ html, body {
 
 /* <!-- fin header Baptiste --> */
 /* <!-- début main Alexandre--> */
+
 
 
 
