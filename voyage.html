@@ -60,6 +60,7 @@
         var s9 = document.getElementById("slide9");
         var s10 = document.getElementById("slide10");
         var s11 = document.getElementById("slide11");
+        var s12 = document.getElementById("slide12");
 
         if (window.getComputedStyle(s1).opacity == 1){
             SlideTransition(s1, s2);
@@ -92,7 +93,10 @@
             SlideTransition(s10, s11);
         }
         else if (window.getComputedStyle(s11).opacity == 1){
-            SlideTransition(s11, s1);
+            SlideTransition(s11, s12);
+        }
+        else if (window.getComputedStyle(s11).opacity == 1){
+            SlideTransition(s12, s1);
         }
     }
 </script>
@@ -111,6 +115,7 @@
     <img class="fond-ecran" src="media/photos/fond-ecran-009.jpg" alt="paysages9" id="slide9">
     <img class="fond-ecran" src="media/photos/fond-ecran-010.jpg" alt="paysages10" id="slide10">
     <img class="fond-ecran" src="media/photos/fond-ecran-011.jpg" alt="paysages11" id="slide11">
+    <img class="fond-ecran" src="media/photos/fond-ecran-012.jpg" alt="paysages12" id="slide12">
 
     <!-- <a href=""><i class="fa fa-bars fa-3x"></i></a> -->
 
@@ -139,7 +144,7 @@
 
             <div class="presentation_accueil_alex_section_photo">
 
-
+                
                         <div id="overlay_photo_alex">
 
                                 <img id="photo_alex_islande" src="media/photos/Alex.png" alt="Alex" />   
@@ -149,7 +154,6 @@
 
                         </div>
                     
-                
             </div>
 
 
@@ -159,7 +163,7 @@
 
                 <a id="lien_iceland" href="">
 
-                    <img id="lapinnnn" src="media/photos/fond-ecran-003.jpg" alt="">
+                    <img id="presentation_equipe_image_lien_iceland" src="media/photos/fond-ecran-003.jpg" alt="">
 
                     <h1>ICELAND</h1>
                 
@@ -171,7 +175,7 @@
 
                 <a id="lien_egypte" href="">
 
-                    <img id="lapinnnn" src="media/photos/fond-ecran-002.jpg" alt="">
+                    <img id="presentation_equipe_image_lien_egypte" src="media/photos/fond-ecran-002.jpg" alt="">
 
                     <h1>EGYPTE</h1>
                 
@@ -190,7 +194,52 @@
 
 
 
+<section id="presentation_accueil_gaspard">
 
+
+
+                <section id="presentation_accueil_Gaspard_liens_destinations">
+
+                    <a id="lien_taiwan" href="">
+                
+                        <img id="presentation_equipe_image_lien_taiwan" src="media/photos/fond-ecran-001.jpg" alt="photo taiwan">
+                
+                        <h1>TAIWAN</h1>
+                    
+                    </a>
+                
+                
+                    <h1 id="titre_choix_destination_gaspard"><hr>CHOOSE YOUR DESTINATION<hr></h1>
+                
+                
+                    <a id="lien_mexique" href="">
+                
+                        <img id="presentation_equipe_image_lien_mexique" src="media/photos/fond-ecran-004.jpg" alt="photo mexique">
+                
+                        <h1>MEXIQUE</h1>
+                    
+                    </a>
+                
+                </section>
+
+
+                <div class="presentation_accueil_gaspard_section_photo">
+
+                    
+                    <div id="overlay_photo_gaspard">
+
+                            <img id="photo_gaspard" src="media/photos/Alex.png" alt="gaspard" />   
+                        
+                            
+                            <h1 id="titre_photo_gaspard">Gaspard</h1>
+
+                    </div>
+    
+                </div>
+
+
+
+</section>
 
 
 

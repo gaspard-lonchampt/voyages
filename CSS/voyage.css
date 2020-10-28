@@ -76,8 +76,6 @@ html, body {
     color: rgb(153, 220, 122);
     font-family: 'Hind Guntur', sans-serif;
 }
-
-
 #slide1 {
     position: absolute;
     opacity: 1;
@@ -122,14 +120,11 @@ html, body {
     position: absolute;
     opacity: 0;
 }
-
-
-
+#slide12 {
+    position: absolute;
+    opacity: 0;
+}
 /* ________________________ présentation de l'équipe __________________________ */
-
-
-
-
 #presentation_accueil_alex{
     display: flex;
     position: relative;
@@ -137,7 +132,6 @@ html, body {
     width: 100%;
     height: 100vh;
 }
-
 #presentation_accueil_alex img{
     height:  60vh;
     transition: .3s;
@@ -154,19 +148,16 @@ html, body {
     justify-content: center;
     align-items: center;
 }
-
    /* Apparition overlay sur passage souris */
    #overlay_photo_alex:hover #titre_photo_alex_islande {
     opacity: 1;
     transform: scale(1.1); 
-   
    }
    #overlay_photo_alex:hover  #photo_alex_islande {
     transform: scale(0.9); 
     transition: .3s ;
     filter: blur(4px);
    }
-
    #overlay_photo_alex  h1{
     position: absolute;
     color: honeydew;
@@ -175,8 +166,6 @@ html, body {
     opacity: 0;
     font-family: 'Hind Guntur', sans-serif;
 }
-
-
 
 #presentation_accueil_alex_liens_destinations{
     width: 60%;
@@ -188,89 +177,60 @@ html, body {
     /* background-color: lawngreen; */
     font-family: 'Hind Guntur', sans-serif;
 }
-
-
-
-
-
-
-
 #lien_iceland{
     width: 100%;
     height: 45.5vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: magenta; */
-   
 }
-
 #lien_iceland h1{
     position: absolute;
     font-size: 4em;
     color: rgb(153, 220, 122);
     transition: 1s;
 }
-
 #lien_iceland img{
     opacity: 0;
     width: 100%;
     height: 100%;
     transition: 1s;
 }
-
-#lien_iceland:hover #lapinnnn{
+#lien_iceland:hover #presentation_equipe_image_lien_iceland{
     opacity: 1;
 }
 #lien_iceland:hover h1{
     opacity: 0;
     transform: scale(0);
 }
-
-
-
 #titre_choix_destination_alex{
-
-all: initial;
-
-font-size: 2em;
+    all: initial;
+    font-size: 2em;
     color: rgb(73, 73, 73);
-    /* background-color: chartreuse; */
-  
-
 }
-
 #titre_choix_destination_alex hr{
- margin: 0.8vh;
+    margin: 0.8vh;
 }
-
-
-
-
 #lien_egypte{
     width: 100%;
     height: 45.5vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: magenta; */
 }
-
 #lien_egypte h1{
     position: absolute;
     font-size: 4em;
     color: rgb(153, 220, 122);
     transition: 1s;
 }
-
 #lien_egypte img{
     opacity: 0;
     width: 100%;
     height: 100%;
     transition: 1s;
 }
-
-#lien_egypte:hover #lapinnnn{
+#lien_egypte:hover #presentation_equipe_image_lien_egypte{
     opacity: 1;
 }
 #lien_egypte:hover h1{
@@ -279,8 +239,123 @@ font-size: 2em;
 }
 
 
+/* _____________________ presentation gaspard_____________________ */
 
+#presentation_accueil_gaspard{
+    display: flex;
+    position: relative;
+    top: 100vh;
+    width: 100%;
+    height: 100vh;
+}
+#presentation_accueil_gaspard img{
+    height:  60vh;
+    transition: .3s;
+}
+.presentation_accueil_gaspard_section_photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    background-color: rgb(220, 255, 228);
+}
+#overlay_photo_gaspard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   /* Apparition overlay sur passage souris */
+   #overlay_photo_gaspard:hover #titre_photo_gaspard {
+    opacity: 1;
+    transform: scale(1.1); 
+   }
+   #overlay_photo_gaspard:hover  #photo_gaspard {
+    transform: scale(0.9); 
+    transition: .3s ;
+    filter: blur(4px);
+   }
+   #overlay_photo_gaspard  h1{
+    position: absolute;
+    color: honeydew;
+    font-size: 4em;
+    transition: .3s ;
+    opacity: 0;
+    font-family: 'Hind Guntur', sans-serif;
+}
 
+#presentation_accueil_Gaspard_liens_destinations{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: lawngreen; */
+    font-family: 'Hind Guntur', sans-serif;
+}
+#lien_taiwan{
+    width: 100%;
+    height: 45.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#lien_taiwan h1{
+    position: absolute;
+    font-size: 4em;
+    color: rgb(153, 220, 122);
+    transition: 1s;
+}
+#lien_taiwan img{
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    object-fit: cover;
+}
+#lien_taiwan:hover #presentation_equipe_image_lien_taiwan{
+    opacity: 1;
+}
+#lien_taiwan:hover h1{
+    opacity: 0;
+    transform: scale(0);
+}
+#titre_choix_destination_gaspard{
+    all: initial;
+    font-size: 2em;
+    color: rgb(73, 73, 73);
+}
+#titre_choix_destination_gaspard hr{
+    margin: 0.8vh;
+}
+#lien_mexique{
+    width: 100%;
+    height: 45.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#lien_mexique h1{
+    position: absolute;
+    font-size: 4em;
+    color: rgb(153, 220, 122);
+    transition: 1s;
+}
+#lien_mexique img{
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    object-fit: cover;
+    object-position: 0px -200px;
+}
+#lien_mexique:hover #presentation_equipe_image_lien_mexique{
+    opacity: 1;
+}
+#lien_mexique:hover h1{
+    opacity: 0;
+    transform: scale(0);
+}
 
 
 
