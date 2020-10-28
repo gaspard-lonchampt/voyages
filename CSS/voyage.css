@@ -6,6 +6,33 @@
 
 /* fin ligne Alexandre  */
 /* début ligne Baptiste  */
+
+
+
+/* fin ligne Baptiste  */
+/* début ligne Gaspard  */
+
+
+
+/* fin ligne Gaspard */
+
+
+
+/* Style général, on n'y touche pas ! */
+*{
+padding: 0px;
+margin: 0px;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+  }
+
+/* fin style général */
+
+/* <!-- début header + nav Baptiste--> */
 .contenu_dessous {
   background-color: rgb(109, 177, 109);
   transform: translateY(-100vh);
@@ -276,32 +303,19 @@
   transform: translateY(-5px) ; 
 }
 
+/* <!-- fin header Baptiste --> */
+/* <!-- début main Alexandre--> */
 
 
-/* fin ligne Baptiste  */
-/* début ligne Gaspard  */
 
 
 
-/* fin ligne Gaspard */
 
 
 
-/* Style général, on n'y touche pas ! */
-*{
-padding: 0px;
-margin: 0px;
-}
 
-html, body {
-    width: 100%;
-    height: 100%;
-    scroll-behavior: smooth;
-  }
 
-/* fin style général */
 
-/* <!-- début header Alexandre--> */
 
 
 
@@ -489,7 +503,6 @@ html, body {
 
 
 
-  
 
 
 
@@ -497,8 +510,6 @@ html, body {
 
 
 
-/* <!-- fin header Alexandre --> */
-/* <!-- début naviguation Baptiste--> */
 
 
 
@@ -697,12 +708,9 @@ html, body {
 
 
 
-/* <!-- fin naviguation Baptiste--> */
-/* <!-- début main --> */
 
 
 
-/* <!-- section 1 Alexandre--> */
 
 
 
@@ -802,8 +810,6 @@ html, body {
 
 
 
-/* <!-- fin section 1 Alexandre--> */
-/* <!-- début section 2 Baptiste --> */
 
 
 
@@ -823,6 +829,7 @@ html, body {
 
 
 
+/* <!-- fin main Alexandre --> */
 
 
 
@@ -902,8 +909,6 @@ html, body {
 
 
 
-/* <!-- fin section 2 Baptiste--> */
-/* <!-- début section 3 Gaspard --> */
 
 
 
@@ -1003,10 +1008,7 @@ html, body {
 
 
 
-/* <!-- fin section 3 Gaspard --> */
 
-/* <!-- fin main --> */
-/* <!-- début footer Gaspard--> */
 
 
 
@@ -1029,182 +1031,3 @@ html, body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* <!-- Fin footer gaspard--> */
