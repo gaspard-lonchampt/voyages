@@ -1,35 +1,323 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@300&display=swap');/* Espace libre pour rajouter des fonts */
-/* début ligne Alexandre */
 
 
 
-/* fin ligne Alexandre  */
-/* début ligne Baptiste  */
 
 
 
-/* fin ligne Baptiste  */
-/* début ligne Gaspard  */
 
 
 
-/* fin ligne Gaspard */
 
 
 
-/* Style général, on n'y touche pas ! */
 
 
-/* fin style général */
-
-/* <!-- début header Alexandre--> */
 
 
-*{
-    margin: 0;
-    padding: 0;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ____________________________________________________ début css acceuil section centrale _______________________________________________________ */
 
 .fond-ecran {
     height: 100vh;
@@ -665,8 +953,6 @@
 
 
 
-/* <!-- fin header Alexandre --> */
-/* <!-- début naviguation Baptiste--> */
 
 
 
@@ -865,12 +1151,9 @@
 
 
 
-/* <!-- fin naviguation Baptiste--> */
-/* <!-- début main --> */
 
 
 
-/* <!-- section 1 Alexandre--> */
 
 
 
@@ -970,8 +1253,6 @@
 
 
 
-/* <!-- fin section 1 Alexandre--> */
-/* <!-- début section 2 Baptiste --> */
 
 
 
@@ -1070,8 +1351,6 @@
 
 
 
-/* <!-- fin section 2 Baptiste--> */
-/* <!-- début section 3 Gaspard --> */
 
 
 
@@ -1171,10 +1450,7 @@
 
 
 
-/* <!-- fin section 3 Gaspard --> */
 
-/* <!-- fin main --> */
-/* <!-- début footer Gaspard--> */
 
 
 
@@ -1361,18 +1637,3 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* <!-- Fin footer gaspard--> */
