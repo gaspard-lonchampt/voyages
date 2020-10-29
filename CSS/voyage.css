@@ -86,6 +86,13 @@ html, body {
   list-style: none;
 }
 
+.deroulant1,.deroulant2 {
+  overflow: hidden;
+  
+}
+.deroulant1 {
+  font-weight: 700;
+} 
 
 .deroulant1:hover .sous1 {
   max-height: 50em;
@@ -122,8 +129,9 @@ html, body {
   transition: .3s;
 }
 
-
-
+.deroulant1:hover .arrow:after {
+  transform: rotate(90deg);
+}
 
 .deroulant2 input {
   outline: none;
@@ -311,9 +319,7 @@ html, body {
     position: absolute;
     width: 8%;
 }
-/* #slider{
-    position: relative;
-} */
+
 #slider a{
     top: 10vh;
     left: 10vw;
@@ -389,6 +395,7 @@ html, body {
 
 
 /* ________________________ présentation Alex __________________________ */
+
 #presentation_accueil_alex{
     display: flex;
     position: relative;
@@ -416,7 +423,7 @@ html, body {
     justify-content: center;
     align-items: center;
 }
-   /* Apparition overlay sur passage souris */
+
    #overlay_photo_alex:hover #titre_photo_alex_islande {
     opacity: 1;
     transform: scale(1.1); 
@@ -443,7 +450,6 @@ html, body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    /* background-color: lawngreen; */
     font-family: 'Hind Guntur', sans-serif;
     overflow: hidden;
 }
