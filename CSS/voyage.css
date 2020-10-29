@@ -205,8 +205,9 @@
     font-size: 2em;
     color: rgb(73, 73, 73);
 }
-#titre_choix_destination_alex hr{
+#presentation_accueil_alex_liens_destinations hr{
     margin: 0.8vh;
+    width: 50%;
 }
 #lien_egypte{
     width: 100%;
@@ -323,8 +324,9 @@
     font-size: 2em;
     color: rgb(73, 73, 73);
 }
-#titre_choix_destination_gaspard hr{
+#presentation_accueil_Gaspard_liens_destinations hr{
     margin: 0.8vh;
+    width: 50%;
 }
 #lien_mexique{
     width: 100%;
@@ -447,8 +449,9 @@
     font-size: 2em;
     color: rgb(73, 73, 73);
 }
-#titre_choix_destination_baptiste hr{
+#presentation_accueil_baptiste_liens_destinations hr{
     margin: 0.8vh;
+    width: 50%;
 }
 #lien_bruxelles{
     width: 100%;
