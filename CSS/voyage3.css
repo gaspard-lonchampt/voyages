@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;900&family=Raleway:wght@300;400;800&display=swap');
+
+/* -------------------------------------------------- CSS BLOC ACCUEIL ------------------------------------*/
+#section_accueil {
+    height: 100vh;
+    background-image: url(../media/photos/accueil_bx.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contenu_section_accueil {
+    height: 100%;
+}
+/* bloc texte */
+
+.accueil_texte {
+    width: 50%;
+    margin-left : 80px ; 
+    padding-top : 100px ;
+    color: white;
+    height: 60%;
+    background-color: rgba(0, 0, 0, 0.288);
+    padding: 30px;
+}
+
+.bouton {
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.bouton div {
+    width: 8% ; 
+    margin : 10px 0px ;
+}
+
+.bouton div:nth-child(2n){
+    margin: 0px 20px ;
+}
+
+#discover {
+    text-transform: uppercase;
+    padding : 20px 0px ; 
+    font-size: 0.8em;
+}
+
+.titre p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.titre h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+}
+
+.titre h1,.titre p {
+    padding : 10px 0px ; 
+}
+
+.bouton div img {
+    width: 100%;
+}
+
+/* vignettes navigation */
+
+.barre_navigation {
+  display:flex;
+  align-items: center;
+  height: 30% ;
+}
+
+.contenu_barre_navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+}
+
+.bloc_nav {
+    width: 20%;
+}
+
+.bloc_nav p {
+    border-top: 1px solid rgba(255, 255, 255, 0.493);
+    margin : 0px 25px ; 
+    padding: 10px 0px;
+}
+
+.bloc_nav span {
+    margin-right: 7px ;  
+    font-weight: 700;
+}
+
+.bloc_nav::before {
+    content: "";
+    height: 10px ; 
+    width : 80% ; 
+    background-color: brown;
+    display: block;
+    margin : 0px 25px ; 
+    
+}
+/* -------------------------------------------------- FIN CSS BLOC ACCUEIL ------------------------------------*/
+
