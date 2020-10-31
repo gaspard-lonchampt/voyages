@@ -227,24 +227,20 @@
     margin-top: 50px;
 }
 
-.bouton_texte button {
+button {
     padding: 20px;
     border : 2px solid white ;
     text-transform: uppercase;
     background: none;
     color: white;
+    transition: all 0.5s;
+    position: relative;
+    outline: none;
     font-weight: 700;
 
 }
 
-
-.bouton_texte button {
-    color: #FFF;
-    transition: all 0.5s;
-    position: relative;
-    outline: none;
-}
-.bouton_texte button:before {
+button:before {
     content: '';
     position: absolute;
     top: 0;
@@ -255,11 +251,11 @@
     background-color: rgba(255,255,255,0.1);
     transition: all 0.3s;
 }
-.bouton_texte button:hover::before {
+button:hover::before {
     opacity: 0 ;
     transform: scale(0.5,0.5);
 }
-.bouton_texte button::after {
+button::after {
     content: '';
     position: absolute;
     top: 0;
@@ -272,12 +268,12 @@
     border: 1px solid rgba(255,255,255,0.5);
     transform: scale(1.2,1.2);
 }
-.bouton_texte button:hover::after {
+button:hover::after {
     opacity: 1;
     transform: scale(1,1);
 }
 
-.bouton_texte button:hover {
+button:hover {
     cursor: pointer;
 }
 
@@ -397,3 +393,93 @@
     text-align: center;
 }
  
+/* CSS PAGE ATOMIUM */
+
+#atomium {
+    height : 100vh ; 
+    background-color: rgba(0, 0, 0, 0.726);
+    font-family: 'Raleway', sans-serif;
+}
+
+#atomium h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8em;
+    padding: 20px 10px;
+}
+
+#atomium p {
+    line-height: 1.8em;
+    padding: 10px;
+}
+.bloc_titre {
+    padding: 30px;
+}
+#atomium button {
+    color: rgba(0, 0, 0, 0.466) ;
+    border : 2px solid rgba(0, 0, 0, 0.466) ;
+    margin-left: 10px ;
+    margin-top: 20px;
+}
+#atomium button:before {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#atomium button:after {
+    background-color: rgba(0, 0, 0, 0.37);
+}
+.contenu_atomium {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.bloc_titre {
+    width : 60% ; 
+    background-color: white;
+    margin-right: 40px ; 
+}
+
+.bloc_img {
+    width : 40% ; 
+    display: flex;
+}
+
+.bloc_img > div {
+    width: 50%;  
+}
+
+.bg_ato {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 38vh;
+    width: 80% ;
+    margin : 20px 0px ;
+    display: flex;
+    align-items: center;
+}
+.image3_4 {
+    margin-top: 60px;
+}
+.image_1 {
+    background-image: url(../media/photos/atomium.jpg);
+}
+
+.image_2 {
+    background-image: url(../media/photos/ato_2.jpg);
+}
+
+.image_3 {
+    background-image: url(../media/photos/ato_3.jpg);
+}
+
+.image_4 {
+    background-image: url(../media/photos/ato_4.jpg); 
+}
+
+.rectangle {
+    width: 90%;
+    margin: auto;
+    height: 90%;
+    border: 2px solid rgba(255, 255, 255, 0.61);
+    
+}
