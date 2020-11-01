@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+*{  font-family: 'Source Sans Pro', sans-serif;}
+
+#egypte_page_accueil{
+    background-image: url(../media/photos/le-sphinx-au-coucher-du-soleil.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+    color: rgb(252, 252, 252);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#egypte_page_accueil p{
+   position: relative;
+   top: -10%;
+   text-align: center;
+   text-shadow: 2px 2px 5px black;
+
+}
+
+
+#egypte_page_accueil hr{
+    width: 60%;
+    background-color: white;
+    border: 1px solid ;
+    position: relative;
+    top: -5%;
+
+}
+
+#egypte_page_accueil h1{
+    font-size: 4em;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+}
+
+#egypte_page_accueil h2{
+    position: relative;
+    top: 20%;
+}
+
+#egypte_page_accueil a i{
+    color: cornsilk;
+    font-size: 200%;
+}
+
+#egypte_page_accueil a  {
+    position: relative;
+
+    animation: bounce 0.7s ease infinite;
+  }
+  
+  @keyframes bounce{
+    from {top: 38%;}
+    50%  {top: 39%;}
+    to   {top: 38%;}
+}
+
+
+
+#découverte_egypte{
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#préambule{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2em;
+    width: 70%;
+    background-color: white;
+    box-shadow: 1px 1px 5px rgb(119, 119, 119);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin-top: 100px;
+}
+#préambule h1{
+position: relative;
+top: -3vh;
+}
+#préambule img{
+    position: relative;
+    top: -8vh;
+    width: 6%;
+    border-radius: 50%;
+}
+
+
+
+/*  vignettes destinations */
+
+#egypte_destinations{
+display: flex;
+justify-content: space-around;
+padding-top:5%;
+    
+}
+
+.destination{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 2px rgb(88, 88, 88);
+    align-items: center;
+}
+
+.photo_principale_destination{
+   width: 100%;
+   height: auto;
+}
+.temps_visite_carte_detail{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+.temps_visite{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(29, 29, 29, 0.2);
+    width: 35%;
+    height: 30%;
+    padding: 5px;
+    color: rgb(252, 252, 252);
+}
+.titre_et_note{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+} 
+.titre_et_note h1{
+    font-size: 3em;
+} 
+.titre_et_note img{
+   height: 40%;
+} 
+
+.texte_descritpion{
+    padding: 10px;
+    text-align: justify;
+    line-height: 1.5em;
+
+}
+.texte_conseil{
+    border: 1px dashed black;
+    width: 90%;
+    padding: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+.vous_aimerez{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#videos{
+    padding: 5%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+#videos iframe{
+    padding: 1%;
+}
