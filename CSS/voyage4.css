@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Raleway:wght@300;400;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* STYLE SECTION PRESENTATION --------------------------------------------------------------------*/
+
+#accueil_costa_rica {
+    height:100vh ; 
+    background-image: url(../media/photos/costa_rica.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contenu_accueil_costa_rica {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .contenu_accueil_costa_rica h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 6vw;
+  }
+  
+  .contenu_accueil_costa_rica div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contenu_accueil_costa_rica p {
+    font-family: ;
+    padding: 40px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+  }
+  .contenu_accueil_costa_rica i {
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+    animation: bounce 3.6s ease infinite;
+    transform-origin: 50% 50%;
+    animation-name: bounce;
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    5.55556% {
+      transform: translateY(0);
+    }
+    11.11111% {
+      transform: translateY(0);
+    }
+    22.22222% {
+      transform: translateY(-15px);
+    }
+    27.77778% {
+      transform: translateY(0);
+    }
+    33.33333% {
+      transform: translateY(-15px);
+    }
+    44.44444% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  /* STYLE SECTION FORM */
+  
+  #faune {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.815);
+    padding : 40px ;
+}
+
+.texte_faune h1 {
+  font-size: 3vw;
+}
+
+.texte_faune h1, .texte_faune p {
+  padding: 25px;
+}
+
+.texte_faune p {
+  line-height: 1.5em;
+  font-size : 1.3vw;
+}
+
+.texte_faune span {
+  color: #80b04b;
+}
+
+.image {
+  height: 35vh ; 
+  background-size: 100%;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.contenu_faune {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.966);
+  border-radius: 3em;
+}
+
+.texte_faune {
+  width: 50%;
+}
+
+.photo_faune {
+  width: 50%;
+}
+
+.grenouille {
+  background-image: url(../media/photos/grenouille.jpg);
+  
+}
+
+.oiseau {
+  background-image: url(../media/photos/perroquet.jpg);
+  
+}
+
