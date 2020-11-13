@@ -2,6 +2,7 @@
 
 *{  font-family: 'Source Sans Pro', sans-serif;}
 
+
 #egypte_page_accueil{
     background-image: url(../media/photos/le-sphinx-au-coucher-du-soleil.jpg);
     background-position: center;
@@ -58,9 +59,9 @@
   }
   
   @keyframes bounce{
-    from {top: 38%;}
-    50%  {top: 39%;}
-    to   {top: 38%;}
+    from {top: 30vh;}
+    50%  {top: 31vh;}
+    to   {top: 30vh;}
 }
 
 
@@ -87,13 +88,14 @@
     margin-top: 100px;
 }
 #préambule h1{
-position: relative;
-top: -3vh;
+margin-bottom: 3%;
+margin-top: 3%;
 }
-#préambule img{
-    position: relative;
-    top: -8vh;
-    width: 6%;
+#image_du_preambule{
+    position: relative; 
+     top: 9.2em;
+    /* margin-bottom: 10%; */
+    width: 100px;
     border-radius: 50%;
 }
 
@@ -173,7 +175,7 @@ padding-top:5%;
 
 #videos{
     padding: 5%;
-    height: 100vh;
+    height: 50vh;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
