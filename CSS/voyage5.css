@@ -1,5 +1,6 @@
-body {
-    overflow-x: hidden;
+
+#taiwan_body {
+    all: initial;
 }
 
 #taiwan_main {
@@ -49,7 +50,21 @@ body {
     width: 390vw;
     display: flex;
     background-color: seagreen;
-}
+    position: fixed;
+    top: 26%;
+    left: 0;
+    animation: accueil_wrap_text 1s linear;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+  }
+  @keyframes accueil_wrap_text {
+    to {
+    transform: translateX(-260vw); 
+    }
+  }
+
 
 .taiwan_bloc_down_container {
     height: 100%;
