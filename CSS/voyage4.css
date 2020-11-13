@@ -142,3 +142,27 @@
   
 }
 
+/* CSS SECTION ACTIVITE */
+
+#activite_costarica {
+  height : 100vh ; 
+  background-image: url(../media/photos/ivan-bandura-Sv27cxiX4lk-unsplash.jpg);
+  background-size: cover;
+}
+
+.contenu_activite_costarica {
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.vignette_activite {
+  width : 25% ; 
+  margin : 20px; 
+  background-color: white;
+  border-radius: 2em;
+  text-align: center;
+}
+
+
+

@@ -388,10 +388,16 @@ button:hover {
 }
 
 .texte_vignette p {
-    font-size: 0.8em;
+    font-size: 0.8vw;
     padding: 5px;
     text-align: center;
 }
+
+.texte_vignette h3 {
+    font-size: 1.4vw;
+    padding: 10px;
+}
+
  
 /* CSS PAGE ATOMIUM */
 
