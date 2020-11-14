@@ -209,6 +209,68 @@
   background-color: #80b04b;
 }
 
+/* CCS section provinces */
+.contenu_region h1 {
+  font-size: 2vw;
+  background-color:  rgba(0, 0, 0, 0.815) ;
+  color: white;
+  padding: 30px 30px 0px 30px;
+}
+
+.contenu_region span {
+  color : #80b04b ;
+}
+.province {
+  width : 100% ; 
+  display: flex;
+  align-items: center;
+  padding: 30px;
+}
+
+.bloc_img {
+  width : 40% ;
+}
+
+.bloc_txt {
+  width : 60% ; 
+  line-height: 2.2em;
+  padding: 40px;
+}
+
+.bloc_txt p {
+  font-size: 1.2vw;
+}
+
+.bloc_txt h3 {
+  font-size : 1.8vw ; 
+  padding: 20px 0px;
+}
+
+.bloc_img div {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 80% ; 
+  height : 50vh ; 
+  margin: 50px auto;
+  box-shadow: 60px 60px 0px -29px #7fb04b88;
+}
+
+.alajuela .bloc_img div {
+  background-image: url(../media/photos/alajuela.jpeg);
+}
+
+.sanjose .bloc_img div {
+  background-image: url(../media/photos/chalo-garcia-eGEPALRGiQk-unsplash.jpg);
+  box-shadow: -60px 60px 0px -29px #7fb04b88;
+}
+.limon .bloc_img div {
+  background-image: url(../media/photos/limon.jpg);
+}
+
+.alajuela , .limon {
+  background-color:  rgba(0, 0, 0, 0.815) ;
+  color: white;
+}
 
 
 
