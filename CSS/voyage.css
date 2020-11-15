@@ -200,7 +200,7 @@ html, body {
   }
 
   50% {
-    transform: translateX(-90vw) ;
+    transform: translateX(-50vw) ;
   }
 
   100% {
