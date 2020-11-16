@@ -1,10 +1,62 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
 #taiwan_body {
     all: initial;
 }
 
 #taiwan_main {
     display: flex;
-    height: 100vh;
+    flex-direction: column;
     width: 100%;
+}
+
+#taiwan_paralax {
+    background-image: url("../media/photos/taiwan_accueil.jpg");
+    min-height: 100vh; 
+    min-width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+#taiwan_titre {
+      text-transform: uppercase;
+      color: white;
+      font-size: 10vh;
+      font-family: 'Fredericka the Great', cursive;
+      font-weight: normal;
+  }
+
+/* page 1 */
+
+#taiwan_page_1 {
+    min-height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #434343;
+}
+
+#taiwan_page_1 iframe {
+    height: 70vh;
+    width: 80vw;
+}
+
+#taiwan_page_1 h1 {
+    color: white;
+    font-size: 5vh;
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: normal;
+    margin-bottom: 5%;
+    margin-top: -12%;
+}
+
+#taiwan_page_2 {
+    background-color: #434343;
 }
