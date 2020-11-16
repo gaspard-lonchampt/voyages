@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 #taiwan_body {
     all: initial;
@@ -34,6 +35,15 @@
 
 /* page 1 */
 
+/* #taiwan_rectangle path {
+    height: 30vh;
+    margin-bottom: -10%;
+} */
+
+#taiwan_rectangle {
+    margin-top: -17%;
+}
+
 #taiwan_page_1 {
     min-height: 85vh;
     display: flex;
@@ -54,9 +64,104 @@
     font-family: 'Fredericka the Great', cursive;
     font-weight: normal;
     margin-bottom: 5%;
-    margin-top: -12%;
 }
 
 #taiwan_page_2 {
-    background-color: #434343;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#taiwan_page_3 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#taiwan_page_4 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* autres pages */
+
+.img_container {
+    height: 40vh;
+    width: 40vw;
+}
+
+.taiwan_bloc_gauche {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 5%;
+    width: 40vw;
+}
+
+.taiwan_bloc_gauche h2 {
+    text-align: center;
+    color: white;
+    font-size: 5vh;
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: normal;
+}
+
+.taiwan_bloc_gauche p {
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    margin: 5%;
+    min-width: 30vw;
+    min-height: 10vh;
+    color: white;
+}
+
+.taiwan_bloc_gauche img {
+    width: 100%;
+    height: 100%;
+}
+
+.taiwan_bloc_droite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 5%;
+    width: 40vw;
+}
+
+.taiwan_bloc_droite h2 {
+    text-align: center;
+    color: white;
+    font-size: 5vh;
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: normal;
+}
+
+.taiwan_bloc_droite p {
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    min-width: 30vw;
+    min-height: 10vh;
+    margin: 5%;
+    color: white;
+}
+
+
+.taiwan_bloc_droite img {
+    width: 100%;
+    height: 100%;
+}
+
+.taiwan_bloc_background {
+    background-color: #4b97ce;
+}
+
+.taiwan_bloc_forme {
+    margin-bottom: -10%;
 }
