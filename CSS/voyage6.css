@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+.burger {
+    color: black;
+}
+
+#mexique_paralax {
+  background-image: url("../media/photos/mexique_paralax.jpg");
+  min-height: 100vh; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#mexique_titre {
+    text-transform: uppercase;
+    color: rgb(221, 126, 9);
+    font-size: 10vh;
+    font-family: 'Monoton', cursive;
+}
+
+#mexique_page_1 {
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.mexique_article_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+#mexique_section_1 {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    align-items: center;
+}
+
+#mexique_section1_yucatan {
+    background-image: url(../media/photos/yucatan_icon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 60vh;
+    min-width: 25vw;
+    border-left: 2px solid black;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#mexique_section1_quintana {
+    background-image: url(../media/photos/quintana_icon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 60vh;
+    min-width: 25vw;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#mexique_section1_chiapas {
+    background-image: url(../media/photos/chiapas_icon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 60vh;
+    min-width: 25vw;
+    border-right: 2px solid black;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+.mexique_flip {
+    background-color: transparent;
+    min-height: 60vh;
+    min-width: 25vw;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+    cursor: pointer;
+  }
+  
+
+  .mexique_contain {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  
+  .mexique_flip:hover .mexique_contain {
+    transform: rotateY(180deg);
+  }
+  
+
+  .mexique_front, .mexique_back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+
+  .mexique_front {
+    height: 60vh;
+    width: 25vw;
+    color: black;
+  }
+  
+ 
+  .mexique_back {
+    color: white;
+    transform: rotateY(180deg);
+    min-height: 60vh;
+    min-width: 25vw;
+    border-radius: 10px;
+}
+
+.mexique_back a {
+    min-height: 60vh;
+    min-width: 25vw;
+    display: flex;
+    text-decoration: none;
+    color: rgb(221, 126, 9);
+    font-size: 3vh;
+    font-family: 'Monoton', cursive;
+    text-transform: uppercase;
+}
+
+#mexique_front_yucatan {
+    background-image: url(../media/photos/yucatan_icon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left: 1px solid black;
+}
+
+#mexique_front_quintana {
+    background-image: url(../media/photos/quintana_icon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    border: solid 1px black;
+}
+
+#mexique_front_chiapas {
+    background-image: url(../media/photos/chiapas_icon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-right: 1px solid black;
+}
+
+#mexique_back_yucatan {
+    background-image: url(../media/photos/yucatan_flag.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#mexique_back_quintana {
+    background-image: url(../media/photos/tulum_flag.png);
+    background-position: 50% 80%;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#mexique_back_chiapas {
+    background-image: url(../media/photos/chiapas_flag.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#mexique_paralax_transition {
+    background-image: url("../media/photos/mexique_paralax_transition2.jpg");
+    height: 100vh; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+/* page 2 */
+
+#mexique_page_2 {
+    display: flex;
+    margin: 5%;
+    height: 100vh;
+    text-align: justify;
+}
+
+.mexique_bloc_gauche {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.mexique_image_top { 
+    height: 60vh;
+    width: 55vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+    transition: linear 100ms;
+    font-family: 'Monoton', cursive;
+    font-size: 2vh;
+}
+
+.mexique_image_top img {
+    height: 100%;
+    width: 100%;
+    transition: linear 100ms;
+}
+
+.mexique_image_top img:hover {
+    opacity: 0.4;
+}
+
+.mexique_image_top h2 {
+    position: absolute;
+}
+
+.mexique_image_top:hover {
+    height: 60vh;
+    width: 55vw;
+    color: rgb(221, 126, 9);
+    font-family: 'Monoton', cursive;
+    font-size: 2vh;
+}
+
+.mexique_bloc_bot {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.mexique_bloc_bot_1 {
+    height: 30vh;
+    width: 18.33vw;
+    margin-right: 1%;
+    margin-top: 1%;
+    color: transparent;
+    transition: linear 100ms;
+    font-family: 'Monoton', cursive;
+    font-size: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mexique_bloc_bot_1:hover {
+    color: rgb(221, 126, 9);
+    font-family: 'Monoton', cursive;
+    font-size: 2vh;
+}
+
+.mexique_bloc_bot_1 img {
+    height: 100%;
+    width: 100%;
+    transition: linear 100ms;
+}
+
+.mexique_bloc_bot_1 img:hover {
+    opacity: 0.4;   
+}
+
+.mexique_bloc_bot_1 h2 {
+    position: absolute;
+}
+
+.mexique_bloc_bot_2 {
+    height: 30vh;
+    width: 18.33vw;
+    margin-right: 1%;
+    margin-top: 1%;
+    color: transparent;
+    transition: linear 100ms;
+    font-family: 'Monoton', cursive;
+    font-size: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.mexique_bloc_bot_2 img {
+    height: 100%;
+    width: 100%;
+    transition: linear 100ms;
+}
+
+.mexique_bloc_bot_2 img:hover {
+    opacity: 0.4;
+}
+
+.mexique_bloc_bot_2 h2 {
+    position: absolute;
+}
+
+.mexique_bloc_bot_2:hover {
+    color: rgb(221, 126, 9);
+    font-family: 'Monoton', cursive;
+    font-size: 2vh;
+}
+
+.mexique_bloc_bot_3 {
+    height: 30vh;
+    width: 18.33vw;
+    margin-top: 1%;
+    color: transparent;
+    transition: linear 100ms;
+    font-family: 'Monoton', cursive;
+    font-size: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mexique_bloc_bot_3:hover {
+    color: rgb(221, 126, 9);
+    font-family: 'Monoton', cursive;
+    font-size: 2vh;
+}
+
+.mexique_bloc_bot_3 img {
+    height: 100%;
+    width: 100%;
+    transition: linear 100ms;
+}
+
+.mexique_bloc_bot_3 img:hover {
+    opacity: 0.4;
+}
+
+.mexique_bloc_bot_3 h2 {
+    position: absolute;
+}
+
+.mexique_bloc_droite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.mexique_bloc_droite h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    color: rgb(221, 126, 9);
+    font-size: 2vh;
+    line-height: 1;
+    font-family: 'Monoton', cursive;
+    text-transform: uppercase;
+}
+
+.mexique_bloc_droite p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    color: black;
+    font-size: 1.7vh;
+    line-height: 1;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/* page 3 */
+
+#mexique_page_3 {
+    display: flex;
+    margin: 5%;
+    height: 100vh;
+    text-align: justify;
+}
+
+/* page 4 */
+
+#mexique_page_4 {
+    display: flex;
+    margin: 5%;
+    height: 100vh;
+    text-align: justify;
+}
