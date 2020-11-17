@@ -827,6 +827,8 @@ html, body {
   background-position: 48%;
   background-repeat: no-repeat;
   background-size: 5%;
+  position: relative;
+  top: 100vh;
 }
 
 #footer_contain_margin {

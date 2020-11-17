@@ -422,3 +422,7 @@
     height: 100vh;
     text-align: justify;
 }
+
+#footer_contain_all {
+    position: initial;
+}

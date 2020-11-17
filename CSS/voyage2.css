@@ -185,3 +185,7 @@ padding-top:5%;
 #videos iframe{
     padding: 1%;
 }
+
+#footer_contain_all {
+    position: initial;
+}

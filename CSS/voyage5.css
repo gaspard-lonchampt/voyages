@@ -164,3 +164,7 @@
 .taiwan_bloc_forme {
     margin-bottom: -10%;
 }
+
+#footer_contain_all {
+    position: initial;
+}

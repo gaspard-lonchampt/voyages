@@ -129,3 +129,7 @@ font-family: 'Balsamiq Sans', cursive;
     top: 5vh;
     left: 90vw;
 }
+
+#footer_contain_all {
+    position: initial;
+}

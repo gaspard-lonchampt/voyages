@@ -489,3 +489,8 @@ button:hover {
     border: 2px solid rgba(255, 255, 255, 0.61);
     
 }
+
+#footer_contain_all {
+    position: relative;
+    top: -100vh;
+}
