@@ -6,6 +6,10 @@
     all: initial;
 }
 
+.burger {
+    color: black;
+}
+
 #taiwan_main {
     display: flex;
     flex-direction: column;
@@ -34,11 +38,6 @@
   }
 
 /* page 1 */
-
-/* #taiwan_rectangle path {
-    height: 30vh;
-    margin-bottom: -10%;
-} */
 
 #taiwan_rectangle {
     margin-top: -17%;
