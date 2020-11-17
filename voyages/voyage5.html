@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/voyage.css" />
+    <link rel="stylesheet" href="../CSS/voyage5.css" />
+    <!-- début espace libre pour rajouter du script ou autre (si il n'y plus de place rajouter à la suite sur la même ligne) -->
+    <!-- début ligne Alexandre -->
+    <!-- fin ligne Alexandre -->
+    <!-- début ligne Baptiste --> <link rel="stylesheet" href="CSS/voyage.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- fin ligne Baptiste -->
+    <!-- début ligne Gaspard --><script src="https://kit.fontawesome.com/6f0632ca8c.js"> </script>     
+    <script>window.addEventListener('scroll', () => {
+            document.body.style.setProperty('--scroll',window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
+          }, false);</script>
+    <!-- fin ligne Gaspard -->
+    <!-- fin espace libre pour rajouter du script ou autre -->
+    <title>Voyage</title>
+</head>
+
+<body id="taiwan_body">
+<!-- début naviguation Baptiste-->
+<header id="menu">
+    
+        <input class="burger fa fa-bars fa-lg" value="&#xf0c9;" type="checkbox">
+        <nav class="contenu_nav">
+            <!-- Début menu déroulant -->
+            <ul id="menu_deroulant">
+                <li class="deroulant1"><a class="arrow" href="#"> Continents</a>
+                    <ul class="sous1">
+                        <li class="deroulant2"><input class="choix_continent" type="checkbox">
+                            <ul class="sous2">
+                                <li><a href="../voyages/voyage3.html"> Bruxelles </a></li>
+                                <li><a href="../voyages/voyage1.html"> Islande </a></li>
+                            </ul>
+                        </li>
+                        <li class="deroulant2"><input class="choix_continent asie" type="checkbox">
+                            <ul class="sous2">
+                                <li><a href="../voyages/voyage5.html"> Taiwan </a></li>
+                            </ul>
+                        </li>
+                        <li class="deroulant2"><input class="choix_continent amerique" type="checkbox">
+                            <ul class="sous2">
+                                <li><a href="../voyages/voyage6.html"> Mexique </a></li>
+                                <li><a href="../voyages/voyage4.html"> Costa Rica </a></li>
+                            </ul>
+                        </li>
+                        <li class="deroulant2"><input class="choix_continent afrique" type="checkbox">
+                            <ul class="sous2">
+                                <li><a href="../voyages/voyage2.html"> Egypte </a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="deroulant1"><a class="arrow" href="#"> Equipe</a>
+                    <ul class="sous1">
+                        <li><a href="../voyage.html#presentation_accueil_gaspard"> Gaspard </a></li>
+                        <li><a href="../voyage.html#presentation_accueil_alex"> Alexandre </a></li>
+                        <li><a href="../voyage.html#presentation_accueil_baptiste"> Baptiste </a></li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- Fin menu déroulant -->
+
+            <!-- DEBUT Galerie animé -->
+            <article class="banniere_photo">
+                <div class="contenu_banniere_photo">
+                    <div><img src="../media/photos/fond-ecran-001.jpg" alt="fond-ecran-001"></div>
+                    <div><img src="../media/photos/fond-ecran-002.jpg" alt="fond-ecran-002"></div>
+                    <div><img src="../media/photos/fond-ecran-003.jpg" alt="fond-ecran-003"></div>
+                    <div><img src="../media/photos/fond-ecran-004.jpg" alt="fond-ecran-004"></div>
+                    <div><img src="../media/photos/fond-ecran-005.jpg" alt="fond-ecran-005"></div>
+                    <div><img src="../media/photos/fond-ecran-006.jpg" alt="fond-ecran-006"></div>
+                    <div><img src="../media/photos/fond-ecran-007.jpg" alt="fond-ecran-007"></div>
+                    <div><img src="../media/photos/fond-ecran-008.jpg" alt="fond-ecran-008"></div>
+                    <div><img src="../media/photos/fond-ecran-009.jpg" alt="fond-ecran-009"></div>
+                    <div><img src="../media/photos/fond-ecran-010.jpg" alt="fond-ecran-010"></div> 
+                </div>
+            </article>
+            <!-- FIN Galerie animé -->
+
+            <article class="inscription_newsletter">
+                <div class="contenu_inscription_newsletter">
+                    <div class="bloc_nl">
+                        <h1> Abonnez-vous</h1>
+                        <p>Newsletter</p>
+                    </div>
+
+                    <div class="searchbar">
+                        <div class="barre_recherche">
+                            <form action="form.php">
+                            <input type="email" id="site-search" name="barre" placeholder="Votre adresse mail">
+                            <button> S'abonner </button>
+                        </form>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="rs">
+                <div class="contenu_rs">
+                    <a href="https://fr-fr.facebook.com/" target="blank_"><i class="fa fa-facebook fa-lg"></i></a>
+                    <a href="https://twitter.com/?lang=fr" target="blank_"><i class="fa fa-twitter fa-lg"></i></a>
+                    <a href="https://www.instagram.com/?hl=fr" target="blank_"><i class="fa fa-instagram fa-lg"></i></a>
+                    <a href="https://www.pinterest.fr/" target="blank_"><i class="fa fa-pinterest fa-lg"></i></a>
+                </div>
+            </article>
+        </nav>   
+
+   
+</header>
+<main id="taiwan_main">
+
+    <div id="taiwan_paralax">
+        <article>
+            <h2 id="taiwan_titre"> Taipei </h2>
+        </article>
+    </div>   
+
+    <svg id="taiwan_rectangle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#434343" fill-opacity="1" d="M0,0L0,96L288,96L288,224L576,224L576,160L864,160L864,96L1152,96L1152,224L1440,224L1440,320L1152,320L1152,320L864,320L864,320L576,320L576,320L288,320L288,320L0,320L0,320Z"></path></svg>
+    <div id="taiwan_page_1">
+        <h1>Votre carte du Taipei City Tour</h1>
+        <iframe src="https://www.google.com/maps/d/embed?mid=15As4dGqfKv1j4w2c4hGygfz994xMpSoJ" width="640" height="480"></iframe>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#434343" fill-opacity="1" d="M0,0L0,96L288,96L288,224L576,224L576,160L864,160L864,96L1152,96L1152,224L1440,224L1440,0L1152,0L1152,0L864,0L864,0L576,0L576,0L288,0L288,0L0,0L0,0Z"></path></svg>
+    
+    <div id="taiwan_page_2">
+        <article class="taiwan_bloc_gauche">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#4b97ce" fill-opacity="1" d="M0,320L0,96L72,96L72,192L144,192L144,256L216,256L216,96L288,96L288,256L360,256L360,64L432,64L432,224L504,224L504,0L576,0L576,256L648,256L648,256L720,256L720,288L792,288L792,96L864,96L864,64L936,64L936,0L1008,0L1008,64L1080,64L1080,224L1152,224L1152,224L1224,224L1224,96L1296,96L1296,224L1368,224L1368,64L1440,64L1440,320L1368,320L1368,320L1296,320L1296,320L1224,320L1224,320L1152,320L1152,320L1080,320L1080,320L1008,320L1008,320L936,320L936,320L864,320L864,320L792,320L792,320L720,320L720,320L648,320L648,320L576,320L576,320L504,320L504,320L432,320L432,320L360,320L360,320L288,320L288,320L216,320L216,320L144,320L144,320L72,320L72,320L0,320L0,320Z"></path></svg>
+            <div class="taiwan_bloc_background">
+            <h2>Etape 1 : <br> Sanchong !</h2>
+            <div class="img_container"><img src="../media/photos/taiwan_etape_1.jpg" alt="taiwan_etape_1"></div>
+            <p>Pour y avoir vécus pendant 8 mois, c'est l'un des meilleurs quartiers pour découvrir la culture taïwanaise au plus proche de ses habitants. <br> <br> A tout moment vous pouvez finir par déguster une soupe chez un taïwanais qui ne parle même pas anglais mais qui est content d'accueillir un étranger chez lui, de quoi redonner foi en l'humanité ! </p>
+            </div>
+        </article>
+
+        <article class="taiwan_bloc_droite">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#4b97ce" fill-opacity="1" d="M0,224L0,224L72,224L72,32L144,32L144,32L216,32L216,96L288,96L288,256L360,256L360,96L432,96L432,0L504,0L504,32L576,32L576,224L648,224L648,32L720,32L720,64L792,64L792,64L864,64L864,128L936,128L936,32L1008,32L1008,160L1080,160L1080,64L1152,64L1152,96L1224,96L1224,64L1296,64L1296,256L1368,256L1368,160L1440,160L1440,320L1368,320L1368,320L1296,320L1296,320L1224,320L1224,320L1152,320L1152,320L1080,320L1080,320L1008,320L1008,320L936,320L936,320L864,320L864,320L792,320L792,320L720,320L720,320L648,320L648,320L576,320L576,320L504,320L504,320L432,320L432,320L360,320L360,320L288,320L288,320L216,320L216,320L144,320L144,320L72,320L72,320L0,320L0,320Z"></path></svg>
+            <div class="taiwan_bloc_background">
+            <h2>Etape 2 : <br> Marché de nuit de Shilin</h2>
+            <div class="img_container"><img src="../media/photos/taiwan_etape_2.jpg" alt="taiwan_etape_2"></div>
+            <p>En tant que le plus célèbre marché nocturnes de Taipei, le Shilin Night Market attire une foule d'aventuries gastronome qui veulent être les premiers à essayer des mets de la spécialité taïwanaise comme le tofu ou les intestins de porcs braisés. <br> <br> Spoiler : c'est très bon !</p>
+            </div>
+        </article>
+    </div>
+
+    <div id="taiwan_page_3">
+        <article class="taiwan_bloc_gauche">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#4b97ce" fill-opacity="1" d="M0,96L0,288L72,288L72,288L144,288L144,256L216,256L216,96L288,96L288,224L360,224L360,192L432,192L432,32L504,32L504,256L576,256L576,160L648,160L648,96L720,96L720,256L792,256L792,96L864,96L864,32L936,32L936,32L1008,32L1008,192L1080,192L1080,96L1152,96L1152,224L1224,224L1224,256L1296,256L1296,288L1368,288L1368,256L1440,256L1440,320L1368,320L1368,320L1296,320L1296,320L1224,320L1224,320L1152,320L1152,320L1080,320L1080,320L1008,320L1008,320L936,320L936,320L864,320L864,320L792,320L792,320L720,320L720,320L648,320L648,320L576,320L576,320L504,320L504,320L432,320L432,320L360,320L360,320L288,320L288,320L216,320L216,320L144,320L144,320L72,320L72,320L0,320L0,320Z"></path></svg>
+            <div class="taiwan_bloc_background">
+            <h2>Etape 3 : <br> Taipei 101</h2>
+            <div class="img_container"><img src="../media/photos/taiwan_etape_3.jpg" alt="taiwan_etape_3"></div>
+            <p> La tour Taipei située dans la ville du même nom sur l’île de Taiwan à été inaugurée au début de l'année 2004 et est actuellement, avec ses 508 mètres de haut et ses 101 étages, la deuxième plus haute tour du monde achevée, juste après le gratte ciel "Burj Khalifa" à dubaï (828m).
+               <br>
+                Ce gratte-ciel propose un des meilleurs point de vue de la ville et regorge de restaurants, boutiques ainsi que de nombreux mystères à découvrir !
+            </p>
+            </div>
+        </article>
+
+        <article class="taiwan_bloc_droite">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#4b97ce" fill-opacity="1" d="M0,256L0,256L72,256L72,96L144,96L144,224L216,224L216,224L288,224L288,256L360,256L360,288L432,288L432,128L504,128L504,96L576,96L576,224L648,224L648,224L720,224L720,32L792,32L792,96L864,96L864,288L936,288L936,160L1008,160L1008,64L1080,64L1080,32L1152,32L1152,32L1224,32L1224,32L1296,32L1296,224L1368,224L1368,224L1440,224L1440,320L1368,320L1368,320L1296,320L1296,320L1224,320L1224,320L1152,320L1152,320L1080,320L1080,320L1008,320L1008,320L936,320L936,320L864,320L864,320L792,320L792,320L720,320L720,320L648,320L648,320L576,320L576,320L504,320L504,320L432,320L432,320L360,320L360,320L288,320L288,320L216,320L216,320L144,320L144,320L72,320L72,320L0,320L0,320Z"></path></svg>
+            <div class="taiwan_bloc_background">
+            <h2>Etape 4 : <br> Musée National du palais </h2>
+            <div class="img_container"><img src="../media/photos/taiwan_etape_4.jpg" alt="taiwan_etape_4"></div>
+            <p>Le musée national du Palais, est un musée de Taipei qui a recueilli les collections du palais impérial de la Cité interdite de Pékin. <br> <br>
+               Ce musée abrite pas moins de 697 490 pièces d'art chinois transféré lors de l'insurrection communiste en 1948, vous pouvez y voir la plus grande statut de jade du monde mesurant pas loin de 4 mètre de haut ! </p>
+            </div>
+        </article>
+    </div>
+
+    <div id="taiwan_page_4">
+        <article class="taiwan_bloc_gauche">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#4b97ce" fill-opacity="1" d="M0,320L0,320L72,320L72,96L144,96L144,96L216,96L216,96L288,96L288,320L360,320L360,288L432,288L432,192L504,192L504,128L576,128L576,160L648,160L648,224L720,224L720,128L792,128L792,224L864,224L864,128L936,128L936,192L1008,192L1008,64L1080,64L1080,192L1152,192L1152,224L1224,224L1224,0L1296,0L1296,64L1368,64L1368,192L1440,192L1440,320L1368,320L1368,320L1296,320L1296,320L1224,320L1224,320L1152,320L1152,320L1080,320L1080,320L1008,320L1008,320L936,320L936,320L864,320L864,320L792,320L792,320L720,320L720,320L648,320L648,320L576,320L576,320L504,320L504,320L432,320L432,320L360,320L360,320L288,320L288,320L216,320L216,320L144,320L144,320L72,320L72,320L0,320L0,320Z"></path></svg>
+            <div class="taiwan_bloc_background">
+            <h2>Etape 5 : <br> Xianshang Trail </h2>
+            <div class="img_container"><img src="../media/photos/taiwan_etape_5.jpg" alt="taiwan_etape_5"></div>
+            <p>L’objectif peut être double: celui de faire une belle balade comme pas mal de Taïwanais en font le week-end mais aussi d’avoir une incroyable vue sur Taipei et le 1-0-1. La montée ne nécessite pas une grande forme physique mais de bonnes chaussures et de l’eau. <br> <br> C’est une visite qui me semble incontournable !</p>
+            </div>
+        </article>
+
+        <article class="taiwan_bloc_droite">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#4b97ce" fill-opacity="1" d="M0,64L0,128L72,128L72,224L144,224L144,96L216,96L216,224L288,224L288,96L360,96L360,224L432,224L432,64L504,64L504,224L576,224L576,64L648,64L648,128L720,128L720,96L792,96L792,32L864,32L864,192L936,192L936,32L1008,32L1008,320L1080,320L1080,160L1152,160L1152,224L1224,224L1224,160L1296,160L1296,192L1368,192L1368,32L1440,32L1440,320L1368,320L1368,320L1296,320L1296,320L1224,320L1224,320L1152,320L1152,320L1080,320L1080,320L1008,320L1008,320L936,320L936,320L864,320L864,320L792,320L792,320L720,320L720,320L648,320L648,320L576,320L576,320L504,320L504,320L432,320L432,320L360,320L360,320L288,320L288,320L216,320L216,320L144,320L144,320L72,320L72,320L0,320L0,320Z"></path></svg>
+            <div class="taiwan_bloc_background">
+            <h2>Etape 6 : <br> Xi-men Ting </h2>
+            <div class="img_container"><img src="../media/photos/taiwan_etape_6.jpg" alt="taiwan_etape_6"></div>
+            <p>Le quartier de Xi-Men est comparable à Shibuya à Tokyo, on y trouve les dernières trouvailles technologiques, les restaurants les plus loufoques (restaurant à thème sur les toilettes par exemple), les meilleurs clubs, bars et magasins en tout genre. 
+                <br>
+                <br>
+            Le meilleur moyen de le visiter est de s'y perdre, alors ranger votre téléphone et laissez vous guider par les lumières ! </p>
+            </div>
+        </article>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</main>
+<!-- début footer Gaspard-->
+<footer id="footer_contain_all">
+
+<div id="footer_contain_margin">
+    <section id="footer_contain_titre">
+        <h1>Envie de nous rencontrer ? Choisis ton aventure !</h1>
+        <article id="footer_sous_titre">
+            <h2 id="road_warrior">Road warrior</h2>
+            <h2 id="retro_warrior">Retro warrior</h2>
+        </article>
+    </section>
+    <div id="footer_contain_map_form">
+
+          
+        
+        <div id="footer_map">
+            <div id="footer_map_background_contain">
+                <iframe src="https://www.google.com/maps/d/embed?mid=15As4dGqfKv1j4w2c4hGygfz994xMpSoJ" width="400" height="400"></iframe>
+            </div>
+        </div>
+   
+
+        <div id="footer_form">
+         
+            <form id="footer_form_form" action="form.php">
+                <label for="footer_name" id="footer_form_title">  Cliquer ici </label>
+            <div class="footer_name">
+                <!-- <label for="footer_name"></label> -->
+            </div>
+            <input type="text" id="footer_name" required placeholder="Nom">
+        
+        <div>
+            <div class="footer_surname">
+                <label for="footer_surname"></label>
+            </div>
+            <input type="text" id="footer_surname" required placeholder="Prénom">
+        </div>
+
+        <div>
+            <div class="footer_email">
+                <label for="footer_email"></label>
+            </div>
+            <input type="email" id="footer_email" required placeholder="Courriel">
+        </div>
+
+            <input type="submit">  
+        </form>
+        </div>
+    </div>
+    </div>
+    <section id="ft_pin">
+        <article id="ft_row_socialmedia">
+            <h3 class="bot_sous_titre">Retrouvez-nous sur</h3>
+                <nav id="bot_nav">
+                    <ul id="bot_liste">
+                        <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </nav>
+        </article>
+    </section>
+    </footer>
+</body>
+</html>
