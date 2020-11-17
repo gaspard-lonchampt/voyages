@@ -491,6 +491,5 @@ button:hover {
 }
 
 #footer_contain_all {
-    position: relative;
-    top: -100vh;
+    top: initial !important;
 }
