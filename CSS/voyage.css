@@ -821,6 +821,8 @@ html, body {
 /* <!-- début footer Gaspard--> */
 
 #footer_contain_all {
+  position : relative;
+  top: 100vh;
   height: 85vh;
   width: 100%;
   background-image: url(../media/photos/footer_backgrond.png);
