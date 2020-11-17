@@ -3,6 +3,7 @@
 *{  font-family: 'Source Sans Pro', sans-serif;}
 
 
+
 #egypte_page_accueil{
     background-image: url(../media/photos/le-sphinx-au-coucher-du-soleil.jpg);
     background-position: center;
@@ -175,10 +176,11 @@ padding-top:5%;
 
 #videos{
     padding: 5%;
-    height: 50vh;
+    height: 100vh;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
 }
 #videos iframe{
     padding: 1%;
