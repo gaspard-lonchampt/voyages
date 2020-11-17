@@ -178,9 +178,9 @@ padding-top:5%;
     padding: 5%;
     height: 100vh;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+
 }
 #videos iframe{
     padding: 1%;
